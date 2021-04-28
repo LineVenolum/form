@@ -2,7 +2,6 @@ function validateValues(values){
     let errors ={}
 
 
-const regExYear= /^(?![01]|20[01])\d{4}$/;
 
 
     if(values.cardholdername.length === 0){
